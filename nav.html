@@ -1,0 +1,93 @@
+<style>
+* {font-family: "Noto Sans TC", sans-serif;}
+.nav {
+	width: 8rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+ul { list-style: none; margin: 0; padding: 0;}
+a {
+	text-decoration: none; color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+}
+.nav li {
+	margin-bottom: .5rem;
+	padding: .2rem;
+	height: 1.5rem;
+	color: white;
+	background-color: rgb(255,255,255,.3);
+	border: .15rem solid white;
+	display: block;
+	position: relative;
+}
+.nav li::after {
+	content: '';
+	position: absolute;
+	width: 7%;
+	height: 100%;
+	top: 0rem;
+	right: -.5rem;
+}
+.nav li:hover {
+	background-color: black;
+	transition: all .6s;
+}
+.nav ul {
+	width: auto;
+	position: absolute;
+	left: 100%;
+	top: -2px;
+	display: none;
+	margin-left: .5rem;
+}
+.nav ul ul { text-align: left; }
+.nav li:hover > ul { display: block; }
+
+</style>
+<ul class="nav">
+	<li><a href="#">project</a>
+		<ul>
+			<li><a href="#">Iingggggggggg</a>
+				<ul>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+				</ul>
+			</li>
+			<li><a href="#">okkk</a>
+				<ul>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案0000000000002</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><a href="#">staff</a>
+		<ul>
+					<li><a href="#">專案01</a></li>
+					<li><a href="#">專案000002</a></li>
+				</ul>
+	</li>
+	<li><a href="#">connection</a></li>
+</ul>

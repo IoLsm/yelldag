@@ -1,0 +1,75 @@
+/* {	font-family: "Lucida Console", "Microsoft JhengHei", PingFang, Monospace; }*/
+* {font-family: "Noto Sans TC", sans-serif;}
+html ,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+}
+
+.container {	/*全景範圍*/
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider {		/*輪播區*/
+	width: 100%;
+	height: 100%;
+}
+
+.main {			/*主要排版區*/
+	width: 100%;
+	height: 100%;		
+	position: absolute;
+}
+
+.header {		/*logo、專案名稱區*/
+	height: 20%;
+	display: flex;
+	align-items: center;
+}
+	.header h1 a {
+		background-image: url(D:\Pictures\MWJVNmE2NHNyZkNYVXBUMU9LZnhsa3MvNENUMXMrUVRmY3g4ZG5uSlcvcmozLy9KeHY1M0Z3PT0.jpg);
+		width: 150px;
+		height: 50px;
+		text-indent: 1001%;
+		overflow: hidden;
+		white-space: nowrap;
+		float: left;
+		border: 1px solid red;
+	}
+	.header .promane {
+		border: 1px solid red;
+		margin-left: 10vh;
+		padding: .5rem 1rem;
+		background-color: rgb(255,255,255,.5);
+		
+	}
+.mid {			/*導覽列、內文區*/
+	width: 100%;
+	height: 75%;
+	position: relative;
+	display: flex;
+	flex-direction:row;
+}
+	.code0 {
+		width: 30vh;
+		height: 100%;
+	}
+	.nav-code {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	.con {
+		width: 100%;
+		height: 100%;
+		background-color: rgb(255,255,255,.3);
+	}
+.footer {		/*尾巴*/
+	height: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
